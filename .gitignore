@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+
+# Local data
+data/*
+!data/.gitkeep
+
+# dbt generated files
+dbt_project/target/
+dbt_project/logs/
+dbt_project/dbt_packages/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Operating system files
+.DS_Store
+Thumbs.db
