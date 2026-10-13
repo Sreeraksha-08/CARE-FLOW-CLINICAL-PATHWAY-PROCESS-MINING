@@ -1,0 +1,7 @@
+pandas
+numpy
+PyYAML
+pytest
+pm4py
+google-cloud-bigquery
+dbt-bigquery
