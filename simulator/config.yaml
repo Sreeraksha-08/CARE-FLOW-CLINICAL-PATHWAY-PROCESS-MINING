@@ -1,24 +1,24 @@
 simulation:
-	default_cases: 1000
-	random_seed: 42
+  default_cases: 1000
+  random_seed: 42
 
 scenarios:
-	before:
-		loopback_probability: 0.40
-	after:
-		loopback_probability: 0.03
+  before:
+    loopback_probability: 0.40
+  after:
+    loopback_probability: 0.03
 
 journey:
-	activities:
-		- Registration
-		- Triage
-		- Doctor Consultation
-		- X-Ray
-		- Doctor Review
-		- Discharge
-	lab_test_probability: 0.30
+  activities:
+    - Registration
+    - Triage
+    - Doctor Consultation
+    - X-Ray
+    - Doctor Review
+    - Discharge
+  lab_test_probability: 0.30
 
 data_quality:
-	add_duplicates: true
-	inconsistent_activity_names: true
-	missing_timestamps: true
+  add_duplicates: true
+  inconsistent_activity_names: true
+  missing_timestamps: true
