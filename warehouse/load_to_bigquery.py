@@ -13,12 +13,15 @@ def load_events(csv_path: str, replace: bool = False) -> None:
     df = pd.read_csv(csv_path)
 
     required_columns = {
-        "case_id",
-        "activity",
-        "timestamp",
-        "scenario",
-        "loopback_reason",
-    }
+    "case_id",
+    "activity",
+    "timestamp",
+    "scenario",
+    "loopback_reason",
+    "resource",
+    "department",
+    "age_group",
+}
     missing = required_columns - set(df.columns)
     if missing:
         raise ValueError(f"CSV is missing required columns: {sorted(missing)}")
@@ -30,9 +33,9 @@ def load_events(csv_path: str, replace: bool = False) -> None:
             "case_id": df["case_id"].astype(str),
             "activity": df["activity"],
             "event_timestamp": pd.to_datetime(df["timestamp"], errors="coerce"),
-            "resource": None,
-            "department": None,
-            "age_group": None,
+            "resource": df["resource"],
+            "department": df["department"],
+            "age_group": df["age_group"],
             "loopback_reason": df["loopback_reason"].where(
                 df["loopback_reason"].notna(), None
             ),
@@ -76,7 +79,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--csv",
-        default="sample_data/before_events.csv",
+        default="sample_data/before_events_with_attributes.csv",
         help="Path to the simulated event CSV",
     )
     parser.add_argument(
