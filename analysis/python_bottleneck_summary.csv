@@ -1,0 +1,10 @@
+activity,next_activity,transition_count,average_minutes,median_minutes,maximum_minutes
+Doctor Consultation,X-Ray,74,50.84,52.0,89.0
+Lab Test,X-Ray,26,50.12,58.0,84.0
+Triage,Doctor Consultation,100,49.93,53.0,90.0
+X-Ray,Doctor Review,58,49.9,53.0,89.0
+Doctor Review,Discharge,100,48.92,50.0,90.0
+Registration,Triage,100,47.87,45.0,89.0
+Triage,Doctor Review,42,40.19,35.0,87.0
+Doctor Consultation,Lab Test,26,33.42,28.5,60.0
+X-Ray,Triage,42,30.52,31.5,45.0
