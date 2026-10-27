@@ -1,0 +1,4 @@
+Cases: 100
+Events: 668
+Start activities: {'Registration': 100}
+End activities: {'Discharge': 100}

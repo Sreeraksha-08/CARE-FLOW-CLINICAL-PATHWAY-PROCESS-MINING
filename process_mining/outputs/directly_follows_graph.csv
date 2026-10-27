@@ -1,0 +1,10 @@
+activity,next_activity,transition_count
+Doctor Review,Discharge,100
+Triage,Doctor Consultation,100
+Registration,Triage,100
+Doctor Consultation,X-Ray,74
+X-Ray,Doctor Review,58
+X-Ray,Triage,42
+Triage,Doctor Review,42
+Doctor Consultation,Lab Test,26
+Lab Test,X-Ray,26
