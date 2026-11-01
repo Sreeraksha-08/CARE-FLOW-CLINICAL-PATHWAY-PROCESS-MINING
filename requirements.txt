@@ -5,3 +5,5 @@ pytest
 pm4py
 google-cloud-bigquery
 dbt-bigquery
+streamlit
+plotly

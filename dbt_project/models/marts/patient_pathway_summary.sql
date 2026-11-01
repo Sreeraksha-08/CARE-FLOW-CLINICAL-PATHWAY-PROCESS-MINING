@@ -26,9 +26,6 @@ select
         minute
     ) as pathway_duration_minutes,
 
-    case
-        when doctor_consultations > 1 then true
-        else false
-    end as has_repeat_consultation
+    doctor_consultations > 1 as has_repeat_consultation
 
 from patient_activity_summary

@@ -27,3 +27,7 @@ htmlcov/
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# Google Cloud credentials
+*service-account*.json
+*credentials*.json

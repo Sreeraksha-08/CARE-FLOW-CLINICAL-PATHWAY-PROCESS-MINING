@@ -1,0 +1,64 @@
+case_id,activity,timestamp,scenario,loopback_reason,age_group,department,resource
+ER00001,Registration,2026-01-13 20:24:00,after,,older_adult,Emergency,Nurse
+ER00001,Triage,2026-01-13 20:42:00,after,,older_adult,Emergency,Nurse
+ER00001,Doctor Consultation,2026-01-13 21:56:00,after,,older_adult,Emergency,Nurse
+ER00001,Lab Test,2026-01-13 22:16:00,after,,older_adult,Emergency,Nurse
+ER00001,X-Ray,2026-01-13 23:36:00,after,,older_adult,Emergency,Nurse
+ER00001,Doctor Review,2026-01-14 00:35:00,after,,older_adult,Emergency,Nurse
+ER00001,Discharge,2026-01-14 00:44:00,after,,older_adult,Emergency,Nurse
+ER00002,Registration,2026-01-24 07:58:00,after,,child,Emergency,Doctor
+ER00002,Triage,2026-01-24 09:26:00,after,,child,Emergency,Doctor
+ER00002,Doctor Consultation,2026-01-24 10:40:00,after,,child,Emergency,Doctor
+ER00002,X-Ray,2026-01-24 11:38:00,after,,child,Emergency,Doctor
+ER00002,Doctor Review,2026-01-24 12:11:00,after,,child,Emergency,Doctor
+ER00002,Discharge,2026-01-24 13:13:00,after,,child,Emergency,Doctor
+ER00003,Registration,2026-01-20 13:36:00,after,,adult,Emergency,Doctor
+ER00003,Triage,2026-01-20 14:24:00,after,,adult,Emergency,Doctor
+ER00003,Doctor Consultation,2026-01-20 14:42:00,after,,adult,Emergency,Doctor
+ER00003,Lab Test,2026-01-20 15:02:00,after,,adult,Emergency,Doctor
+ER00003,X-Ray,2026-01-20 15:55:00,after,,adult,Emergency,Doctor
+ER00003,Doctor Review,2026-01-20 16:12:00,after,,adult,Emergency,Doctor
+ER00003,Discharge,2026-01-20 17:02:00,after,,adult,Emergency,Doctor
+ER00004,Registration,2026-01-22 05:48:00,after,,older_adult,Radiology,Nurse
+ER00004,Triage,2026-01-22 06:41:00,after,,older_adult,Radiology,Nurse
+ER00004,Doctor Consultation,2026-01-22 06:56:00,after,,older_adult,Radiology,Nurse
+ER00004,X-Ray,2026-01-22 08:11:00,after,,older_adult,Radiology,Nurse
+ER00004,Doctor Review,2026-01-22 08:53:00,after,,older_adult,Radiology,Nurse
+ER00004,Discharge,2026-01-22 10:18:00,after,,older_adult,Radiology,Nurse
+ER00005,Registration,2026-01-04 11:58:00,after,,adult,Laboratory,Doctor
+ER00005,Triage,2026-01-04 12:40:00,after,,adult,Laboratory,Doctor
+ER00005,Doctor Consultation,2026-01-04 12:55:00,after,,adult,Laboratory,Doctor
+ER00005,Lab Test,2026-01-04 13:24:00,after,,adult,Laboratory,Doctor
+ER00005,X-Ray,2026-01-04 13:41:00,after,,adult,Laboratory,Doctor
+ER00005,Doctor Review,2026-01-04 14:34:00,after,,adult,Laboratory,Doctor
+ER00005,Discharge,2026-01-04 15:14:00,after,,adult,Laboratory,Doctor
+ER00006,Registration,2026-01-18 04:20:00,after,,older_adult,Radiology,Doctor
+ER00006,Triage,2026-01-18 05:47:00,after,,older_adult,Radiology,Doctor
+ER00006,Doctor Consultation,2026-01-18 06:01:00,after,,older_adult,Radiology,Doctor
+ER00006,X-Ray,2026-01-18 07:23:00,after,,older_adult,Radiology,Doctor
+ER00006,Doctor Review,2026-01-18 08:49:00,after,,older_adult,Radiology,Doctor
+ER00006,Discharge,2026-01-18 09:15:00,after,,older_adult,Radiology,Doctor
+ER00007,Registration,2026-01-22 08:54:00,after,,older_adult,Emergency,Doctor
+ER00007,Triage,2026-01-22 10:20:00,after,,older_adult,Emergency,Doctor
+ER00007,Doctor Consultation,2026-01-22 11:36:00,after,,older_adult,Emergency,Doctor
+ER00007,X-Ray,2026-01-22 12:09:00,after,,older_adult,Emergency,Doctor
+ER00007,Doctor Review,2026-01-22 12:55:00,after,,older_adult,Emergency,Doctor
+ER00007,Discharge,2026-01-22 13:07:00,after,,older_adult,Emergency,Doctor
+ER00008,Registration,2026-01-13 12:26:00,after,,child,Radiology,Lab Technician
+ER00008,Triage,2026-01-13 13:43:00,after,,child,Radiology,Lab Technician
+ER00008,Doctor Consultation,2026-01-13 14:28:00,after,,child,Radiology,Lab Technician
+ER00008,X-Ray,2026-01-13 15:00:00,after,,child,Radiology,Lab Technician
+ER00008,Doctor Review,2026-01-13 16:28:00,after,,child,Radiology,Lab Technician
+ER00008,Discharge,2026-01-13 17:36:00,after,,child,Radiology,Lab Technician
+ER00009,Registration,2026-01-13 09:19:00,after,,older_adult,Radiology,Doctor
+ER00009,Triage,2026-01-13 10:32:00,after,,older_adult,Radiology,Doctor
+ER00009,Doctor Consultation,2026-01-13 11:10:00,after,,older_adult,Radiology,Doctor
+ER00009,X-Ray,2026-01-13 12:29:00,after,,older_adult,Radiology,Doctor
+ER00009,Doctor Review,2026-01-13 13:28:00,after,,older_adult,Radiology,Doctor
+ER00009,Discharge,2026-01-13 14:47:00,after,,older_adult,Radiology,Doctor
+ER00010,Registration,2026-01-24 12:32:00,after,,adult,Emergency,Doctor
+ER00010,Triage,2026-01-24 12:51:00,after,,adult,Emergency,Doctor
+ER00010,Doctor Consultation,2026-01-24 13:15:00,after,,adult,Emergency,Doctor
+ER00010,X-Ray,2026-01-24 14:40:00,after,,adult,Emergency,Doctor
+ER00010,Doctor Review,2026-01-24 15:05:00,after,,adult,Emergency,Doctor
+ER00010,Discharge,2026-01-24 16:04:00,after,,adult,Emergency,Doctor

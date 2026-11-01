@@ -9,7 +9,7 @@ TABLE_SCHEMA = [
 	{"name": "case_id", "type": "STRING", "mode": "NULLABLE"},
 	{"name": "activity", "type": "STRING", "mode": "NULLABLE"},
 	{"name": "event_timestamp", "type": "TIMESTAMP", "mode": "NULLABLE"},
-	{"name": "resource", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "resource", "type": "STRING", "mode": "NULLABLE"},
 	{"name": "department", "type": "STRING", "mode": "NULLABLE"},
 	{"name": "age_group", "type": "STRING", "mode": "NULLABLE"},
 	{"name": "loopback_reason", "type": "STRING", "mode": "NULLABLE"},

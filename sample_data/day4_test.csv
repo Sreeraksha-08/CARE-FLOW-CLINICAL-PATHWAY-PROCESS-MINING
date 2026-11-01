@@ -1,0 +1,69 @@
+case_id,activity,timestamp,scenario,loopback_reason,age_group,department,resource
+ER00001,Registration,2026-01-13 20:24:00,before,,older_adult,Emergency,Nurse
+ER00001,Triage,2026-01-13 20:42:00,before,,older_adult,Emergency,Nurse
+ER00001,Doctor Consultation,2026-01-13 21:56:00,before,,older_adult,Emergency,Nurse
+ER00001,Lab Test,2026-01-13 22:16:00,before,,older_adult,Emergency,Nurse
+ER00001,X-Ray,2026-01-13 23:36:00,before,,older_adult,Emergency,Nurse
+ER00001,Triage,2026-01-14 00:13:00,before,missing_paperwork_form,older_adult,Emergency,Nurse
+ER00001,Doctor Review,2026-01-14 00:22:00,before,,older_adult,Emergency,Nurse
+ER00001,Discharge,2026-01-14 00:30:00,before,,older_adult,Emergency,Nurse
+ER00002,Registration,2026-01-26 21:01:00,before,,child,Emergency,Nurse
+ER00002,Triage,2026-01-26 22:15:00,before,,child,Emergency,Nurse
+ER00002,Doctor Consultation,2026-01-26 23:13:00,before,,child,Emergency,Nurse
+ER00002,X-Ray,2026-01-26 23:46:00,before,,child,Emergency,Nurse
+ER00002,Triage,2026-01-27 00:24:00,before,missing_paperwork_form,child,Emergency,Nurse
+ER00002,Doctor Review,2026-01-27 01:44:00,before,,child,Emergency,Nurse
+ER00002,Discharge,2026-01-27 02:24:00,before,,child,Emergency,Nurse
+ER00003,Registration,2026-01-16 19:38:00,before,,child,Laboratory,Lab Technician
+ER00003,Triage,2026-01-16 20:26:00,before,,child,Laboratory,Lab Technician
+ER00003,Doctor Consultation,2026-01-16 20:44:00,before,,child,Laboratory,Lab Technician
+ER00003,Lab Test,2026-01-16 21:04:00,before,,child,Laboratory,Lab Technician
+ER00003,X-Ray,2026-01-16 21:57:00,before,,child,Laboratory,Lab Technician
+ER00003,Triage,2026-01-16 22:13:00,before,missing_paperwork_form,child,Laboratory,Lab Technician
+ER00003,Doctor Review,2026-01-16 23:03:00,before,,child,Laboratory,Lab Technician
+ER00003,Discharge,2026-01-16 23:52:00,before,,child,Laboratory,Lab Technician
+ER00004,Registration,2026-01-25 17:42:00,before,,adult,Emergency,Lab Technician
+ER00004,Triage,2026-01-25 17:57:00,before,,adult,Emergency,Lab Technician
+ER00004,Doctor Consultation,2026-01-25 19:12:00,before,,adult,Emergency,Lab Technician
+ER00004,X-Ray,2026-01-25 19:54:00,before,,adult,Emergency,Lab Technician
+ER00004,Triage,2026-01-25 20:27:00,before,missing_paperwork_form,adult,Emergency,Lab Technician
+ER00004,Doctor Review,2026-01-25 21:45:00,before,,adult,Emergency,Lab Technician
+ER00004,Discharge,2026-01-25 22:14:00,before,,adult,Emergency,Lab Technician
+ER00005,Registration,2026-01-14 12:05:00,before,,child,Laboratory,Doctor
+ER00005,Triage,2026-01-14 12:22:00,before,,child,Laboratory,Doctor
+ER00005,Doctor Consultation,2026-01-14 13:15:00,before,,child,Laboratory,Doctor
+ER00005,X-Ray,2026-01-14 13:55:00,before,,child,Laboratory,Doctor
+ER00005,Doctor Review,2026-01-14 14:58:00,before,,child,Laboratory,Doctor
+ER00005,Discharge,2026-01-14 16:24:00,before,,child,Laboratory,Doctor
+ER00006,Registration,2026-01-10 20:50:00,before,,child,Radiology,Radiology Technician
+ER00006,Triage,2026-01-10 22:17:00,before,,child,Radiology,Radiology Technician
+ER00006,Doctor Consultation,2026-01-10 22:31:00,before,,child,Radiology,Radiology Technician
+ER00006,X-Ray,2026-01-10 23:53:00,before,,child,Radiology,Radiology Technician
+ER00006,Doctor Review,2026-01-11 01:19:00,before,,child,Radiology,Radiology Technician
+ER00006,Discharge,2026-01-11 01:45:00,before,,child,Radiology,Radiology Technician
+ER00007,Registration,2026-01-22 08:54:00,before,,older_adult,Emergency,Doctor
+ER00007,Triage,2026-01-22 10:20:00,before,,older_adult,Emergency,Doctor
+ER00007,Doctor Consultation,2026-01-22 11:36:00,before,,older_adult,Emergency,Doctor
+ER00007,X-Ray,2026-01-22 12:09:00,before,,older_adult,Emergency,Doctor
+ER00007,Triage,2026-01-22 12:39:00,before,missing_paperwork_form,older_adult,Emergency,Doctor
+ER00007,Doctor Review,2026-01-22 12:51:00,before,,older_adult,Emergency,Doctor
+ER00007,Discharge,2026-01-22 13:25:00,before,,older_adult,Emergency,Doctor
+ER00008,Registration,2026-01-04 08:17:00,before,,adult,Radiology,Radiology Technician
+ER00008,Triage,2026-01-04 09:02:00,before,,adult,Radiology,Radiology Technician
+ER00008,Doctor Consultation,2026-01-04 09:34:00,before,,adult,Radiology,Radiology Technician
+ER00008,X-Ray,2026-01-04 11:02:00,before,,adult,Radiology,Radiology Technician
+ER00008,Triage,2026-01-04 11:43:00,before,missing_paperwork_form,adult,Radiology,Radiology Technician
+ER00008,Doctor Review,2026-01-04 12:38:00,before,,adult,Radiology,Radiology Technician
+ER00008,Discharge,2026-01-04 14:05:00,before,,adult,Radiology,Radiology Technician
+ER00009,Registration,2026-01-12 13:22:00,before,,child,Radiology,Doctor
+ER00009,Triage,2026-01-12 14:41:00,before,,child,Radiology,Doctor
+ER00009,Doctor Consultation,2026-01-12 15:40:00,before,,child,Radiology,Doctor
+ER00009,X-Ray,2026-01-12 16:59:00,before,,child,Radiology,Doctor
+ER00009,Doctor Review,2026-01-12 17:55:00,before,,child,Radiology,Doctor
+ER00009,Discharge,2026-01-12 18:46:00,before,,child,Radiology,Doctor
+ER00010,Registration,2026-01-05 11:17:00,before,,child,Laboratory,Lab Technician
+ER00010,Triage,2026-01-05 11:41:00,before,,child,Laboratory,Lab Technician
+ER00010,Doctor Consultation,2026-01-05 13:06:00,before,,child,Laboratory,Lab Technician
+ER00010,X-Ray,2026-01-05 13:31:00,before,,child,Laboratory,Lab Technician
+ER00010,Doctor Review,2026-01-05 14:30:00,before,,child,Laboratory,Lab Technician
+ER00010,Discharge,2026-01-05 15:51:00,before,,child,Laboratory,Lab Technician
