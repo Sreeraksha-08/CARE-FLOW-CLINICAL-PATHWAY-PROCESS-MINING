@@ -6,7 +6,10 @@ from pathlib import Path
 import pandas as pd
 import yaml
 
-from attributes import generate_patient_attributes
+try:
+    from .attributes import generate_patient_attributes
+except ImportError:
+    from attributes import generate_patient_attributes
 
 
 def load_config():
