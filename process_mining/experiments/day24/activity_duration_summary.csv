@@ -1,0 +1,13 @@
+scenario,activity,event_intervals,mean_minutes,median_minutes,max_minutes
+before,Doctor Consultation,100,46.31,45.0,89.0
+before,Doctor Review,100,48.92,50.0,90.0
+before,Lab Test,26,50.11538461538461,58.0,84.0
+before,Registration,100,47.87,45.0,89.0
+before,Triage,142,47.04929577464789,47.5,90.0
+before,X-Ray,100,41.76,39.5,89.0
+after,Doctor Consultation,100,47.54,45.0,90.0
+after,Doctor Review,100,43.81,42.0,89.0
+after,Lab Test,22,40.68181818181818,39.5,90.0
+after,Registration,100,46.08,47.0,88.0
+after,Triage,104,43.97115384615385,39.5,90.0
+after,X-Ray,100,48.63,46.5,89.0

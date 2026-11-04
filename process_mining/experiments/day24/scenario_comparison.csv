@@ -1,0 +1,3 @@
+scenario,cases,mean_minutes,median_minutes,max_minutes,min_minutes
+after,100,240.74,242.0,349.0,91.0
+before,100,264.7,267.0,437.0,166.0
